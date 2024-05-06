@@ -20,7 +20,7 @@ For deployment, Vercel was utilized. Click the Description link to preview the d
 ## Installation and Running the App
 1. Install required dependencies npm i
 2. Start the development server: npm run dev
-3. Open your browser and go to http://ocalhost:5173
+3. Open your browser and go to http://localhost:5173
 
 
 ## Expanding the ESLint configuration
