@@ -24,7 +24,7 @@ function Navbar() {
             </svg>
           </button>
           {/*Dropdown shows when screen size is xs*/}
-          <div id="dropdown" className={`z-10 ${isDropdownOpen ? "block" : "hidden"} bg-white divide-y divide-gray-100 rounded-lg shadow px-5 py-2.5 dark:bg-gray-700`}>
+          <div id="dropdown" className={`z-10 ${isDropdownOpen ? "flex" : "hidden"}  items-center bg-white divide-y divide-gray-100 rounded-lg shadow px-5 py-2.5 dark:bg-gray-700`}>
               <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                 <li>
                   <Link to="/ContactPage" className="flex items-center gap-1 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">

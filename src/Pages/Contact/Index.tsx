@@ -54,7 +54,7 @@ const Contact = () => {
     };
 
   return (
-    <div className="w-full top-0 " >
+    <div className="w-full top-0 overflow-y-auto" >
         <Navbar/>
         <div className="w-full flex justify-center sm:justify-end mt-10 sm:mt-0">
             <button onClick={toggleModal} data-modal-target="default-modal" type="button" data-modal-toggle="default-modal" className="inline-flex items-center w-42 px-4 py-2 my-3 sm:mx-20 text-lg font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         {/* Add Employee Input*/}
         {showModal && (
-        <div id="default-modal" tabIndex={-1} className="overflow-y-auto overflow-x-hidden fixed  backdrop-blur-sm right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-screen-full">
+        <div id="default-modal" tabIndex={-1} className="overflow-y-auto overflow-x-hidden fixed  backdrop-blur-sm right-0 top-0 sm:top-auto left-0 z-50 justify-center items-center w-full md:inset-0 h-screen-full">
             <div className="flex items-center mx-auto mt-32 relative p-4 w-full max-w-2xl max-h-full">
                
                 <div className="relative bg-white rounded-lg shadow dark:bg-gray-700 w-full">
